@@ -1,5 +1,13 @@
-# Created by https://www.toptal.com/developers/gitignore/api/node,macos
-# Edit at https://www.toptal.com/developers/gitignore?templates=node,macos
+# Created by https://www.toptal.com/developers/gitignore/api/node,macos,certificates
+# Edit at https://www.toptal.com/developers/gitignore?templates=node,macos,certificates
+
+### certificates ###
+*.pem
+*.key
+*.crt
+*.cer
+*.der
+*.priv
 
 ### macOS ###
 # General
@@ -174,4 +182,4 @@ dist
 # SvelteKit build / generate output
 .svelte-kit
 
-# End of https://www.toptal.com/developers/gitignore/api/node,macos
+# End of https://www.toptal.com/developers/gitignore/api/node,macos,certificates
