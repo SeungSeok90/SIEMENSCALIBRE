@@ -395,7 +395,7 @@ nav.gnb li:last-child a:after{display:none;}
 .footer-gp {padding: 50px 0;}
 .main-footer{background-color: #000027;}
 .sub-footer{background-color: #ebf0f5;}
-.footer-gp .menu > ul {flex-basis: 33.333%; display: flex;flex-direction: column;}
+.footer-gp .menu > ul {flex-basis: 33.333%; display: flex;flex-direction: column; text-align: left;}
 .footer-gp .menu > ul .sm-title {font-size: 15px;font-weight: 500;margin-bottom: 20px;}
 .main-footer .menu > ul .sm-title {color: #fff;}
 .sub-footer .menu > ul .sm-title {color: #2d373c;}
