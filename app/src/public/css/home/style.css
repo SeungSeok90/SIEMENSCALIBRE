@@ -294,7 +294,7 @@ header h1{float:left; margin-right:50px;}
 	nav > ul:after{clear:both; display:block; content:"";}
 	nav > ul li.dep02{position:relative; float:left;}
 	nav > ul li.dep02 h2{font-weight:normal;}
-	nav > ul li.dep02 h2 a{display:inline-block;padding-top: 5px; padding-left:30px; padding-bottom:26px; font-size:20px; font-weight:500; color:#fff; -webkit-transition-duration:0.2s; -webkit-transition-timing-function:ease; transition-duration:0.2s; transition-timing-function:ease;}
+	nav > ul li.dep02 h2 a{display:inline-block;padding-top: 5px; padding-left:30px; padding-bottom:26px; font-size:18px; font-weight:500; color:#fff; -webkit-transition-duration:0.2s; -webkit-transition-timing-function:ease; transition-duration:0.2s; transition-timing-function:ease;}
 	nav > ul li.gnb_on h2 a, nav > ul li.dep02 h2 a:hover{color:#01cdcc; -webkit-transition-duration:0.2s; -webkit-transition-timing-function:ease; transition-duration:0.2s; transition-timing-function:ease;}
 	nav > ul li.dep02 h2 a:after{content:'|'; display:inline-block; padding-left:30px; font-size:10px; color:#333352; text-align:right; vertical-align:2px;}
 	nav > ul li.dep02:last-child h2 a:after{display:none;}
