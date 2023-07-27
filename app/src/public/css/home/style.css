@@ -430,7 +430,7 @@ nav.gnb li:last-child a:after{display:none;}
 .agenda-table{display:table; width:100%; margin-top:30px; border-bottom:3px solid #000027;}
 .agenda-table ul{display:table-row;}
 .agenda-table ul li{display:table-cell; padding:15px; font-size:16px; font-weight:500; color:#fff; vertical-align:middle; border-top:1px solid #c4c4c4; border-bottom:1px solid #c4c4c4;}
-.agenda-table ul li speaker{color:#009999; padding: 5px;}
+.agenda-table ul li speaker{color:#009999;}
 .agenda-table ul li:nth-child(1){width:10%; font-size:14px; text-align:center; background-color:#009999;}
 .agenda-table ul li:nth-child(1) a{display:block; margin-top:5px; padding:5px; color:#000; background: transparent linear-gradient(90deg,#00ffb9 0%,#00fcbc 10%,#00fac0 20%,#00f7c3 30%,#00f5c7 40%,#00f3cb 50%,#00f0ce 60%,#00edd1 70%,#00ebd5 80%,#00e8d8 90%,#00e6dc 100%) 0% 0% no-repeat;}
 
