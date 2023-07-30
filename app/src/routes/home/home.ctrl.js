@@ -4,7 +4,7 @@ const home = (req, res) => {
     res.render("home/index");
 };
 const home2 = (req, res) => {
-    res.render("home/home");
+    res.render("home/index2");
 };
 
 module.exports = {

@@ -16,7 +16,7 @@ body {
   --speaker-color: #009999;
 }
 
-.inner{width:1400px; margin:0 auto;}
+.inner{width:1080; margin:0 auto;}
 
 .header{
   position: fixed;
@@ -135,4 +135,18 @@ a{
   .header__nev .header__menu{
     display: none;
   }
+}
+
+#title {
+  background-image: url(/images/0907_Siemens_EDA_Calibre_Day_2023_bg_01.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: top;
+  width: 1000px;
+  height: 748px;
+}
+
+#agenda{
+
 }

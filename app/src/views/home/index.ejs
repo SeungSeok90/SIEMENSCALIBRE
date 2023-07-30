@@ -3,123 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css">
 
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/home/style.css">
+    <link rel="stylesheet" href="/css/home/style3.css">
     <script src="/js/home/login.js"></script>
-
+    
     <title>Siemens EDA Calibre Day 2023</title>
 </head>
 <body>
-
-    <header>
-        <div class="inner clear">
-            <h1><a href="https://eda.sw.siemens.com/en-US" target="_blank">
-                <img src="/images/logo.png" width="119px">
-                </a>
-            </h1>
-    
-            <button type="button" class="only-m m-btn-nav"><span></span></button>
-            <nav>
-                <ul>
-                    <li class="dep02 gnb_on">
-                        <h2><a href="#" class="nav-link px-2 text-white">Home</a></h2>
-                    </li>
-
-                    <li class="dep02 gnb_on">
-                        <h2><a href="#calibre" class="nav-link px-2 text-white">Calibre Day</a></h2>
-                    </li>
-    
-                    <li class="dep02 ">
-                        <h2><a href="#agenda" class="nav-link px-2 text-white">Agenda</a></h2>
-                    </li>
-    
-                    <li class="dep02 ">
-                        <h2><a href="#information" class="nav-link px-2 text-white">Information</a></h2>
-                    </li>
-                    <li class="dep02 ">
-                        <h2><a href="#venue" class="nav-link px-2 text-white">Venue</a></h2>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <!-- container -->
-
-    
-    <main class="">
-        <section id="title" style="background-image: url(/images/0907_Siemens_EDA_Calibre_Day_2023_bg_01.jpeg);">
-            <div class="inner">
-                <div style="padding-top: 35px;">
-                    <span style="color: aliceblue; font-size: 6rem; line-height: normal;">Siemens EDA</span><br>
-                    <span style="color: #00e6dc; font-size: 6rem; line-height: normal;">Calibre Day 2023<br>Seoul</span><br><br>
-                    <span style="color: aliceblue; font-size: 2rem;">2023. 9. 7 (목) 13:00 - 19:00<br>소피텔 앰배서더 서울 (4F 그랜드 볼룸 방돔)</span><br>
-                    <div class="hero-btn">
-                        <a href="http://event.keystonellc.kr/registrations/Siemens_0907_Calibre_Day_2023/" class="main-live-btn" target="_blank">사전등록</a>
+    <header class="header">
+        <div class="inner">
+            <div class="header__wrapper">
+                <div class="header__left">
+                    <input type="checkbox" id="header__hamberger">
+                    <label for="header__hamberger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                    <div class="sidebar">
+                        <div class="header__menu">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#calibre">Calibre Day</a></li>
+                                <li><a href="#agenda">Agenda</a></li>
+                                <li><a href="#information">Information</a></li>
+                                <li><a href="#venue">Venue</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__center">
+                    <img class="header__logo" src="/images/logo/logo.png">
+                </div>
+                <div class="header__right">
+                    <div class="header__nev">
+                        <div class="header__menu">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#calibre">Calibre Day</a></li>
+                                <li><a href="#agenda">Agenda</a></li>
+                                <li><a href="#information">Information</a></li>
+                                <li><a href="#venue">Venue</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
         
-        <section id="calibre" style="background-image: url(/images/0907_Siemens_EDA_Calibre_Day_2023_bg_02.jpeg);">
-            <div class="inner">
-                <span style="color: aliceblue; font-size: 4rem;">Siemens EDA Calibre Day 2023</span><br><br>
-                <p style="color: #00e6dc; font-size: 2rem;">Siemens EDA의 Calibre Eco System을 지지해 주시는 고객 여러분들께 감사 말씀드립니다.</p><br>
-                <p style="color: #fff; font-size: 2rem;">다가오는 9월7일 목요일, 잠실 소피텔 앰배서더 서울 호텔에서 <span style="color: #00e6dc;">Siemens EDA Calibre Day 행사를 개최합니다.</span> 
-                    최근 빠르게 변하고 있는 기술 환경에서 반도체 집적회로 설계, 검증 또한 역동적이며 혁신적으로 발전하고 있습니다.
-                    이에 발맞춰 오늘날 Calibre Design Solution으로 대표되는 Physical Verification 기술은 여러분이 직면한 설계 및
-                    신뢰성 검증 문제점을 해결면서 수율 향상에 대한 치열한 고민을 하고 있습니다.</p><br>
-                <p style="color: #fff; font-size: 2rem;">본 세미나에서는 가장 최신의 그리고 다양한 Calibre Design Solution을 통하여 이러한 문제 해결 방법을 탐색하며 실제
-                    성공사례와 응용 경험을 공유합니다. 또한 동료 전문가들과의 네트워킹을 통해 설계검증 분야에서 여러분들이 경쟁 우위를
-                    확보하고 유지할 수 있는 절호의 기회가 되실 것입니다.</p><br>
-                <p style="color: #00e6dc; font-size: 2rem;"> Calibre Eco System 및 전반적인 Physical Verification의 최신 기술을 경험할 수 있는 본 행사에 여러분을 초대합니다.</p>
-                
-                <div class="hero-btn">
-                    <a href="#agenda" class="main-live-btn">행사 일정 보기</a>
+    </header>
+    <main>
+        <section id="title">
+            <div class="title__event inner">
+                <div class="title__txt_img_title">
+                    <span>Siemens EDA<br></span>
+                    <span>Calibre Day 2023<br>Seoul</span>
                 </div>
-        
+                <div class="title__txt_img_date">
+                    <span>2023. 9. 7 (목) 13:00 - 19:00<br>소피텔 앰배서더 서울 (4F 그랜드 볼룸 방돔)</span>
+                </div>
+                <div class="title__btn_register">
+                    <a href="http://event.keystonellc.kr/registrations/Siemens_0907_Calibre_Day_2023/" target="_blank"><img src="/images/btn/registration.png" alt=""></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="calibre">
+            <div class="inner">
+                <div>
+                    <span>Siemens EDA Calibre Day 2023<br><br></span>
+                    <span>Siemens EDA의 Calibre Eco System을 지지해 주시는 고객 여러분들께 감사 말씀드립니다.<br><br></span>
+                    <span>다가오는 9월7일 목요일, 잠실 소피텔 앰배서더 서울 호텔에서</span>
+                    <span style="color: #00e6dc;">Siemens EDA Calibre Day 행사를 개최합니다.</span>
+                    <span>최근 빠르게 변하고 있는 기술 환경에서 반도체 집적회로 설계, 검증 또한 역동적이며 혁신적으로 발전하고 있습니다.
+                    이에 발맞춰 오늘날 Calibre Design Solution으로 대표되는 Physical Verification 기술은 여러분이 직면한 설계 및
+                    신뢰성 검증 문제점을 해결면서 수율 향상에 대한 치열한 고민을 하고 있습니다.<br><br></span>
+                    <span>본 세미나에서는 가장 최신의 그리고 다양한 Calibre Design Solution을 통하여 이러한 문제 해결 방법을 탐색하며 실제 성공사례와 응용 경험을 공유합니다. 또한 동료 전문가들과의 네트워킹을 통해 설계검증 분야에서 여러분들이 경쟁 우위를 확보하고 유지할 수 있는 절호의 기회가 되실 것입니다.<br><br></span>
+                    <span>Calibre Eco System 및 전반적인 Physical Verification의 최신 기술을 경험할 수 있는 본 행사에 여러분을 초대합니다.</span>
+                </div>
+                <div class="calibre__btn_agenda">
+                    <a href="#agenda"><img src="/images/btn/agenda.png" alt=""></a>
+                </div>
             </div>
         </section>
         
-
-        <section id="agenda" style="background-color: #000028;">
+        <section id="agenda">
             <div class="inner">
-                <span style="color: aliceblue; font-size: 4rem;"><strong>Agenda</strong></span>
+                <div>
+                    <span style="color: aliceblue; font-size: 4rem;"><strong>Agenda</strong></span>
+                </div>
                 <div class="agenda-table">
                     <ul class="">
                         <li>12:30 - 13:30</li>
-                        <li><span style="font-size: 2rem;">등록</span></li>
+                        <li><span class="agenda-table-txt-title">등록</span></li>
                     </ul>
                     <ul>
                         <li>13:30 - 13:45</li>
                         <li>
-                            <span style="font-size: 2rem;">환영사</span><br>
-                            <speaker>정재만 전무, Siemens EDA</speaker>
+                            <span class="agenda-table-txt-title">환영사</span><br>
+                            <div class="agenda-table-txt-speaker"><span>정재만 전무, Siemens EDA</span></div>
                         </li>
                     </ul>
                     <ul>
                         <li>13:45 - 14:20</li>
                         <li>
-                            <span style="font-size: 2rem;">Break Challenges with DRC - clean layout by Calibre SmartFill and DesignEnhancer</span><br>
-                            <speaker>김형균, Siemens EDA & 신태현 수석, SK hynix</speaker><br>
-                            <span style="color: darkgray; font-size: 1.3rem;">Calibre 제품은 아주 오랫동안 물리적 검증분야에서 표준이 되어 왔습니다.
-                                본 세션에서는 2023년 하반기 새로이 출시된 Calibre Design Enhancer제품을 소개하면서 어떻게 Calibre로 DRC검증된 디자인의 품질과 신뢰성을 강화하고 자동화된 과정을 통해
+                            <span class="agenda-table-txt-title">Break Challenges with DRC - clean layout by Calibre SmartFill and
+                                DesignEnhancer</span><br>
+                                <div class="agenda-table-txt-speaker"><span>김형균, Siemens EDA & 신태현 수석, SK hynix</span></div>
+
+                            <span class="adenda-table-txt-sub">Calibre 제품은 아주 오랫동안 물리적 검증분야에서 표준이 되어 왔습니다.
+                                본 세션에서는 2023년 하반기 새로이 출시된 Calibre Design Enhancer제품을 소개하면서 어떻게 Calibre로 DRC검증된 디자인의 품질과 신뢰성을
+                                강화하고 자동화된 과정을 통해
                                 제품 출시까지의 시간을 줄일 수 있는지 알아봅니다.
-                            </spanㅍ>
+                                </span>
                         </li>
                     </ul>
                     <ul>
                         <li>14:20 - 14:55</li>
                         <li>
-                            <span style="font-size: 2rem;">mPower - Analyze power integrity with fast, scalable and flexible solution</span><br>
-                            <speaker>김세홍 대리, Siemens EDA</speaker><br>
-                            <span style="color: darkgray; font-size: 1.3rem;">mPower는 아날로그 디자인, 디지털 디자인 그리고 3차원 IC등 모든 종류의 IC design을 용량에 관계없이 단 하나의 도구로 power해석을 할 수 있는 유일한 제품입니다.
+                            <span class="agenda-table-txt-title">mPower - Analyze power integrity with fast, scalable and flexible
+                                solution</span>
+                            <div class="agenda-table-txt-speaker"><span>김세홍 대리, Siemens EDA</span></div>
+                            <span class="adenda-table-txt-sub">mPower는 아날로그 디자인, 디지털 디자인 그리고 3차원 IC등 모든 종류의 IC
+                                design을 용량에 관계없이 단 하나의 도구로 power해석을 할 수 있는 유일한 제품입니다.
                                 또한 mPower는 기존의 3rd party 제품의 표준 input과 호환이 되어 큰 어려움 없이 mPower로 대체할 수 있습니다.
                                 이번 세션에서 Calibre mPower를 통한 새로운 Power 해석의 해법을 찾으실 수 있을 것입니다.
                             </span>
@@ -128,9 +135,10 @@
                     <ul>
                         <li>14:55 - 15:30</li>
                         <li>
-                            <span style="font-size: 2rem;">Calibre 3DSTACK Solution for Physical Connectivity Verification and Accuracy Improvement of 3D-IC</span><br>
-                            <speaker>한민정 과장, Siemens EDA</speaker><br>
-                            <span style="color: darkgray; font-size: 1.3rem;">3D IC 기술은 반도체 칩의 수직 적층으로 고성능 및 높은 집적도를 제공합니다.
+                            <span class="agenda-table-txt-title">Calibre 3DSTACK Solution for Physical Connectivity Verification and
+                                Accuracy Improvement of 3D-IC</span><br>
+                            <div class="agenda-table-txt-speaker"><span>한민정 과장, Siemens EDA</span></div>
+                            <span class="adenda-table-txt-sub">3D IC 기술은 반도체 칩의 수직 적층으로 고성능 및 높은 집적도를 제공합니다.
                                 최근의 기술발전은 더 많은 layer를 사용하여 더욱 더 높은 밀도의 설계를 구현하게 하지만 이와 비례적으로 제조와 물리적 연결에 많은 어려움이 있습니다.
                                 이번 세션에서는 Calibre 3DStack 제품이 어떻게 이러한 어려운 물리적 연결을 정확히 검증하여 3D IC design의 정확성을 보장할 수 있는지 살펴봅니다.
                             </span>
@@ -138,14 +146,15 @@
                     </ul>
                     <ul>
                         <li>15:30 - 15:50</li>
-                        <li><span style="font-size: 2rem;">Coffee Break</span></li>
+                        <li><span class="agenda-table-txt-title">Coffee Break</span></li>
                     </ul>
                     <ul>
                         <li>15:50 - 16:25</li>
                         <li>
-                            <span style="font-size: 2rem;">CalibreKR CheckStore - Cross Check</span><br>
-                            <speaker>변선수 이사, Siemens EDA</speaker><br>
-                            <span style="color: darkgray; font-size: 1.3rem;">CalibreKR CheckStore는 한국에서 만든 신뢰성 검증 통합 해법으로 Calibre PERC등 다양한 Calibre제품들로 만들었습니다.
+                            <span class="agenda-table-txt-title">CalibreKR CheckStore - Cross Check</span><br>
+                            <div class="agenda-table-txt-speaker"><span>변선수 이사, Siemens EDA</span></div>
+                            <span class="adenda-table-txt-sub">CalibreKR CheckStore는 한국에서 만든 신뢰성 검증 통합 해법으로
+                                Calibre PERC등 다양한 Calibre제품들로 만들었습니다.
                                 아주 쉽게 구축할 수 있으면 별도의 수정이나 편집 없이 바로 사용할 수 있습니다.
                                 그 중 CrossCheck는 특정 노드가 다른 노드로부터 혼선의 영향을 받는지 확인하는 기능으로 "same metal layer space" 와
                                 "different metal layer overlap" 두 가지 종류의 검증방법을 제공합니다.
@@ -155,91 +164,104 @@
                     <ul>
                         <li>16:25 - 17:00</li>
                         <li>
-                            <span style="font-size: 2rem;">Simplifying IP and Physical Verification with Calibre Pattern Matching</span><br>
-                            <speaker>서요한 과장, Siemens EDA</speaker><br>
-                            <span style="color: darkgray; font-size: 1.3rem;">본 세션에서는 아주 복잡한 형태의 Silicon IP의 확인과 검증을 어떻게 Calibre Pattern Match로 단순화 할 수 있는지 알아봅니다.
+                            <span class="agenda-table-txt-title">Simplifying IP and Physical Verification with Calibre Pattern
+                                Matching</span><br>
+                            <div class="agenda-table-txt-speaker"><span>서요한 과장, Siemens EDA</span></div>
+                            <span class="adenda-table-txt-sub">본 세션에서는 아주 복잡한 형태의 Silicon IP의 확인과 검증을 어떻게 Calibre
+                                Pattern Match로 단순화 할 수 있는지 알아봅니다.
                             </span>
                         </li>
                     </ul>
                     <ul>
                         <li>17:00 - 17:15</li>
                         <li>
-                            <span style="font-size: 2rem;">Q&A / Closing</span>
+                            <span class="agenda-table-txt-title">Q&A / Closing</span>
                         </li>
                     </ul>
                     <ul>
                         <li>17:15 - 19:00</li>
                         <li>
-                            <span style="font-size: 2rem;">Happy Hour</span>
+                            <span class="agenda-table-txt-title">Happy Hour</span>
                         </li>
                     </ul>
                 </div>
                 <div style="float: right; color: aliceblue;">
-                    <span style="font-size: 1.5rem;">&#8251; 상기 아젠다는 사정에 따라 변경 될 수 있습니다.</span>
+                    <span style="font-size: 1rem;">&#8251; 상기 아젠다는 사정에 따라 변경 될 수 있습니다.</span>
                 </div>
-                <div class="hero-btn">
-                    <a href="http://event.keystonellc.kr/registrations/Siemens_0907_Calibre_Day_2023/" class="main-live-btn"
-                        target="_blank">사전등록</a>
+                <div class="title__btn_register">
+                    <a href="http://event.keystonellc.kr/registrations/Siemens_0907_Calibre_Day_2023/" target="_blank"><img src="/images/btn/registration.png" alt=""></a>
                 </div>
-
+        
             </div>
-
+        
         </section>
+        
+        <section id="information">
+            <div class="inner">
+                <div style="padding: 20px 0;">
+                    <span style="color: aliceblue; font-size: 4rem"><strong>Information</strong></span>
+                </div>
+                <div class="info-txt-list">
+                    <span>
+                        <p>◈행사 일정 : 2023. 9. 7 (목) 13:00 (12:30 등록 시작) | 행사 장소 : 소피텔 앰배서더 4층 그랜드볼룸 방돔</p>
 
+                        <p>◈본 행사는 Siemens EDA Calibre 고객사 및 반도체/전자 전자 설계 검증 분야 종사자를 위한 행사로, 관련이 없으신 분은 참석이 제한될 수 있습니다.</p>
+                    
+                        <p>◈본 행사는 사전 등록/참석 확인이 되신 분에 한하여 입장 가능합니다.</p>
+                    
+                        <p>◈본 행사 참석하시고 설문지 작성을 하신 분들께 기념품이 제공됩니다.<br>
+                        <span style="margin-left: 15px; font-size: 0.9rem; vertical-align: bottom;">(소속기관 정책 또는 적용 법령상 상품 수령이 허용되는 경우에만 수령해주시기 바랍니다.)</span>
+                        </p>
 
-        <section id="information" style="background-image: linear-gradient(to bottom, #000028, #009999);">
-            <div class="inner" style="color: aliceblue;">
-                <span style="color: aliceblue; font-size: 4rem"><strong>Information</strong></span><br><br>
-                <span style="font-size: 2rem;">
-                    * 행사 일정 : 2023. 9. 7 (목) 13:00 (12:30 등록 시작) | 행사 장소 : 소피텔 앰배서더 4층 그랜드볼룸 방돔<br><br>
-            
-                    * 본 행사는 Siemens EDA Calibre 고객사 및 반도체/전자 전자 설계 검증 분야 종사자를 위한 행사로, 관련이 없으신 분은 참석이 제한될 수 있습니다.<br><br>
-            
-                    * 본 행사는 사전 등록/참석 확인이 되신 분에 한하여 입장 가능합니다.<br><br>
-            
-                    * 본 행사 참석하시고 설문지 작성을 하신 분들께 기념품이 제공됩니다. <span style="font-size: 1.5rem; vertical-align: bottom;">(소속기관 정책 또는 적용 법령상 상품 수령이 허용되는 경우에만 수령해주시기 바랍니다.)</span><br><br>
-            
-                    * 무료 주차 지원이 가능하며, Happy Hour시 주류가 제공될 예정이니 필요하신 경우 대중교통을 이용해 주시기 바랍니다<br><br>
-            
-                    * 사전 등록 현황에 따라 사전 등록이 조기 마감될 수 있습니다.<br></span>
+                        <p>◈무료 주차 지원이 가능하며, Happy Hour시 주류가 제공될 예정이니 필요하신 경우 대중교통을 이용해 주시기 바랍니다</p>
+
+                        <p>◈사전 등록 현황에 따라 사전 등록이 조기 마감될 수 있습니다.</p>
+                    </span>
+                </div>
             </div>
-
         </section>
-
+        
         <section id="venue">
             <div class="inner">
-                <div style="height: 450px">
-                    <span style="color:#000028; font-size: 4rem"><strong>Venue</strong></span><br><br>
-                    <div style="float: left; width: 65%;">
-                    <a href="https://naver.me/xFpWB5Yt" target="_blank">
-                        <img src="/images/map.png" alt="" style="width: 100%; padding: 10px;"></a>
+                <div style="padding: 20px 0;">
+                    <div style="padding-top: 60px;">
+                        <span style="color: black; font-size: 4rem;"><strong>Venue</strong></span>
                     </div>
-                    <div style="float: left; width: 35%;">
-                        <div><img src="/images/hotel.png" alt="" style="width: 100%; padding: 10px;"></div>
-                        
-                        <div style="font-size: 1.5rem; padding: 10px; text-align: right;">
-                            2023년 9월 7일 12:30 - 19:00 <img src="/images/icon_time.png" style="width: 25px;" alt="">
-                            <hr width="100%">
-                            <span style="padding-right: 30px;">서울 송파구 잠실로 209</span><br>
-                            <span style="padding-right: 5px;">소피텔 앰배서더 서울</span><span><img src="/images/icon_location.png" style="width: 25px;" alt=""></span><br>
-                            <span style="padding-right: 30px;">4F 그랜드 볼룸 방돔</span><br>
-                            
-                            <hr width="100%">
-                            <div style="vertical-align: middle;">
-                                <a href="tel:+82-02-2092-6052">
-                                    <span style="padding-right: 5px;">02-2092-6052</span>
-                                    <span><img src="/images/icon_phone.png" style="width: 25px;" alt=""></span>
+                    <div style="display: flex;">
+                        <div class="venue__left_map">
+                            <span>
+                                <a href="https://naver.me/xFpWB5Yt" target="_blank">
+                                    <img src="/images/ex/map.png" alt="" style="width: 100%; padding: 10px;">
                                 </a>
+                            </span>
+                        </div>
+                        <div class="venue__right_hotel">
+                            <div>
+                                <img src="/images/ex/hotel.png" alt="" style="width: 100%; padding: 10px;">
                             </div>
-                            
-                            
+                            <div style="font-size: 1.1rem; padding: 10px; text-align: right;">
+                                <span style="line-height: 25px; display: inline-block; height: 25px;">2023년 9월 7일 12:30 - 19:00
+                                <img src="/images/icon/icon_time_b.png" style="width: 25px; display: inline-block; vertical-align: middle;" alt=""></span>
+                                <hr width="100%">
+                                <span style="padding-right: 30px;">서울 송파구 잠실로 209</span><br>
+                                <span style="padding-right: 5px;">소피텔 앰배서더 서울</span><span><img src="/images/icon/icon_location_b.png"
+                                        style="width: 25px;" alt=""></span><br>
+                                <span style="padding-right: 30px;">4F 그랜드 볼룸 방돔</span><br>
+                    
+                                <hr width="100%">
+                                <div style="vertical-align: middle;">
+                                    <a href="tel:+82-2-2092-6052">
+                                        <span style="padding-right: 5px;">02-2092-6052</span>
+                                        <span><img src="/images/icon/icon_phone_b.png" style="width: 25px;" alt=""></span>
+                                    </a>
+                                </div>
+                    
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-    
     </main>
     <footer class="blog-footer">
         <div class="footer-gp main-footer">
@@ -247,37 +269,41 @@
                 <div class="flex-container menu">
                     <ul>
                         <li class="sm-title">Products</li>
-                        <li><a href="https://eda.sw.siemens.com/en-US/ic/" target="_blank"><img src="/images/footer-arrow.png"
-                                    alt="">IC Design, Verification & Manufacturing</a></li>
+                        <li><a href="https://eda.sw.siemens.com/en-US/ic/" target="_blank"><img
+                                    src="/images/icon/icon_footer-arrow.png" alt="">IC Design, Verification &
+                                Manufacturing</a></li>
                         <li><a href="https://eda.sw.siemens.com/en-US/ic-packaging/" target="_blank"><img
-                                    src="/images/footer-arrow.png" alt="">IC Packaging Design & Verification</a></li>
-                        <li><a href="https://eda.sw.siemens.com/en-US/pcb/" target="_blank"><img src="/images/footer-arrow.png"
-                                    alt="">Electronic Systems Design & Manufacturing</a></li>
+                                    src="/images/icon/icon_footer-arrow.png" alt="">IC Packaging Design & Verification</a>
+                        </li>
+                        <li><a href="https://eda.sw.siemens.com/en-US/pcb/" target="_blank"><img
+                                    src="/images/icon/icon_footer-arrow.png" alt="">Electronic Systems Design &
+                                Manufacturing</a></li>
                         <li><a href="https://eda.sw.siemens.com/en-US/consulting-services/" target="_blank"><img
-                                    src="/images/footer-arrow.png" alt="">EDA Services</a></li>
+                                    src="/images/icon/icon_footer-arrow.png" alt="">EDA Services</a></li>
                     </ul>
                     <ul>
                         <li class="sm-title">회사</li>
-                        <li><a href="https://eda.sw.siemens.com/en-US" target="_blank"><img src="/images/footer-arrow.png"
-                                    alt="">Siemens EDA</a></li>
-                        <li><a href="https://blogs.sw.siemens.com/" target="_blank"><img src="/images/footer-arrow.png"
-                                    alt="">Blog</a></li>
+                        <li><a href="https://eda.sw.siemens.com/en-US" target="_blank"><img
+                                    src="/images/icon/icon_footer-arrow.png" alt="">Siemens EDA</a></li>
+                        <li><a href="https://blogs.sw.siemens.com/" target="_blank"><img
+                                    src="/images/icon/icon_footer-arrow.png" alt="">Blog</a></li>
                     </ul>
                     <ul>
                         <li class="sm-title">Siemens 문의하기</li>
-                        <li><a href="mailto:siemens_mkt@keystonellc.co.kr" target="_blank"><img src="/images/icon_mail.png" alt="">문의하기</a>
+                        <li><a href="mailto:siemens_mkt@keystonellc.co.kr" target="_blank"><img
+                                    src="/images/icon/icon_mail_w.png" alt="">문의하기</a>
                         </li>
                         <li class="sm-m-title icon-box">
                             <a href="https://www.linkedin.com/company/siemens-eda/" target="_blank">
-                                <img src="/images/icon_linkedin.png">
+                                <img src="/images/icon/icon_linkedin_w.png">
                                 Linkedin
                             </a>
                             <a href="https://www.facebook.com/siemensedakorea" target="_blank">
-                                <img src="/images/icon_facebook.png">
+                                <img src="/images/icon/icon_facebook_w.png">
                                 facebook
                             </a>
                             <a href="https://pf.kakao.com/_wFcJT" target="_blank">
-                                <img src="/images/icon_kakao.png">
+                                <img src="/images/icon/icon_kakao_w.png">
                                 Kakao
                             </a>
                         </li>
@@ -286,23 +312,23 @@
                 <div class="copy main-copy">
                     <div>© Siemens 2023</div>
                     <div>
-                        <a href='https://new.siemens.com/global/en/general/legal.html' target='_blank'>Corporate Information</a>
+                        <a href='https://new.siemens.com/global/en/general/legal.html' target='_blank'>Corporate
+                            Information</a>
                         <a href='https://new.siemens.com/global/en/general/privacy-notice.html' target='_blank'>Privacy
                             Notice</a>
-                        <a href='https://new.siemens.com/global/en/general/cookie-notice.html' target='_blank'>Cookie Notice</a>
-                        <a href='https://new.siemens.com/global/en/general/terms-of-use.html' target='_blank'>Terms of Use</a>
+                        <a href='https://new.siemens.com/global/en/general/cookie-notice.html' target='_blank'>Cookie
+                            Notice</a>
+                        <a href='https://new.siemens.com/global/en/general/terms-of-use.html' target='_blank'>Terms of
+                            Use</a>
                         <a href='https://new.siemens.com/global/en/general/digital-id.html' target='_blank'>Digital ID</a>
                     </div>
                 </div>
             </div>
         </div>
-
+    
     </footer>
 
-
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
+    <script>
+    </script>
 </body>
 </html>
