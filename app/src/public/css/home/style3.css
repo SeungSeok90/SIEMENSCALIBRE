@@ -74,17 +74,30 @@ input[id="header__hamberger"]:checked +label span:nth-child(3){
   transform: translateY(50%) rotate(-45deg);
 }
 div[class="sidebar"]{
-  display: block;
+  display: none; /* 모바일 일때 활성화 block으로 */
   width: 100%;
   height: 200px;
   background: var(--main-bg-color2);
   opacity: 80%;
   position: fixed;
-  top: -300px;
+  top: -260px;
   left: 0;
-  z-index: -1;
+  z-index: 5;
   transition: all .3s;
 }
+.background{
+  position: fixed;
+  top: 260px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .8);
+  transition: all .35s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1;
+}
+input[id="header__hamberger"]:checked ~ .background {opacity: 1; visibility: visible;}
 input[id="header__hamberger"]:checked + label + div{
   top: 60px;
 }
@@ -327,6 +340,8 @@ section[id="venue"]{
   .header__logo{
     margin-left: -80px;
   }
+  div[class="sidebar"]{
+  display: block;}
   input[id="header__hamberger"]+label span{
   display: block;
   }
