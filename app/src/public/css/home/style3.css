@@ -107,7 +107,7 @@ input[id="header__hamberger"]:checked + label + div{
   float: left;
   width: 150px;
   text-align: center;
-  font-size: 25px;
+  font-size: 16px;
   height: 40px;
   line-height: 40px;
 }
@@ -126,18 +126,20 @@ section[id="title"]{
 }
 .title__txt_img_title span:nth-child(1){
   color: var(--main-font-color);
-  font-size: 5rem;
+  font-size: 4rem;
+  font-weight: 800;
   line-height: normal;
 }
 .title__txt_img_title span:nth-child(2){
   color: var(--main-bg-color);
-  font-size: 5rem;
+  font-size: 4rem;
+  font-weight: 800;
   line-height: normal;
 }
 .title__txt_img_date span:nth-child(1){
   padding: 50px 0;
   color: var(--main-font-color);
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: normal;
 }
 .title__btn_register{
