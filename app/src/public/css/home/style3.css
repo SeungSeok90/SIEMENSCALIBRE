@@ -231,6 +231,7 @@ section[id="information"]{
   width: 18px;
   line-height: 20px;
 }
+.info-img-list img{display: none; width: 100%;}
 
 /* main-venue */
 section[id="venue"]{
@@ -384,7 +385,8 @@ section[id="venue"]{
 
   .info-txt-list{display: none;
   }
-  .info-txt-list img{ width: 100%;}
+  .info-img-list img{display: flex;}
+
   .venue__center{
     display: inline-block;
   }
