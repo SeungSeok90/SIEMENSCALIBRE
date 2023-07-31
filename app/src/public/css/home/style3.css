@@ -232,6 +232,9 @@ section[id="information"]{
 section[id="venue"]{
     width: 100%;
 }
+.venue__center{
+    display: flex;
+  }
 .venue__map{
    width: 65%; float: left;
 }
@@ -321,9 +324,9 @@ section[id="venue"]{
 
   section[id="calibre"]{
     width: 100%;
-    height: 850px;
+    height: 950px;
     background: #333453 url(/images/bg/welcome.jpeg) no-repeat right/cover;
-}
+  }
   #calibre > .inner > div > span:nth-child(1){
   font-size: 1.5rem;
   }
@@ -347,9 +350,17 @@ section[id="venue"]{
   }
   .calibre__btn_agenda{
   padding: 20px 0;
-
-  .venue__map{
-    width: 100%;
   }
-}
+  .venue__center{
+    display: inline-block;
+  }
+  .venue__left_map{
+    width: 100%;
+    float: none;
+    
+  }
+  .venue__right_hotel{
+    width: 100%;
+    float: none;
+  }
 }
