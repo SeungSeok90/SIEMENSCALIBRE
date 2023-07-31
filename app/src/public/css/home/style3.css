@@ -100,14 +100,13 @@ input[id="header__hamberger"]:checked + label + div{
   line-height: 40px;
   transition: all .3s;
 }
-.header__menu ul{
+/* .header__menu ul{
   list-style: none;
-}
+} */
 .header__menu ul li{
   float: left;
-  width: 150px;
-  text-align: center;
   font-size: 16px;
+  padding-left: 20px;
   height: 40px;
   line-height: 40px;
 }
@@ -281,9 +280,9 @@ section[id="venue"]{
 .footer-gp .sub-copy > div {color: #697882; font-size: 14px;}
 .footer-gp .copy > div:first-child {float: left;}
 .footer-gp .copy > div:last-child {float: right;}
-.main-footer .copy > div:last-child a:after{content:'|'; display:inline-block; padding:0 5px; font-size:10px; vertical-align:2px; color:#fff;}
+.main-footer .copy > div:last-child a:after{content:'|'; display:inline-block; padding:0; font-size:10px; vertical-align:2px; color:#fff;}
 .main-footer .copy > div:last-child a:last-child:after{display:none;}
-.sub-footer .copy > div:last-child a:after{content:'|'; display:inline-block; padding:0 5px; font-size:10px; vertical-align:2px; color:#697882;}
+.sub-footer .copy > div:last-child a:after{content:'|'; display:inline-block; padding:0; font-size:10px; vertical-align:2px; color:#697882;}
 .sub-footer .copy > div:last-child a:last-child:after{display:none;}
 
 .icon-box a {margin-right: 15px!important;}
