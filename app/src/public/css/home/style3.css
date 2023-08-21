@@ -225,6 +225,21 @@ section[id="agenda"] > div{
 
 .adenda-table-txt-sub{font-size: 0.9rem; color: darkgray;}
 
+/* main-event */
+section[id="event__gift"]{
+    width: 100%;
+    padding: 20px 0;
+    background-color: #000028;
+}
+section[id="event__gift"] > div{
+    padding-top: 50px;
+}
+section[id="event__gift"] > div{
+    padding-top: 50px;
+}
+.event_img{
+  width: 1080px;
+}
 
 /* main-information */
 section[id="information"]{
@@ -245,6 +260,7 @@ section[id="information"]{
   line-height: 20px;
 }
 .info-img-list img{display: none; width: 100%;}
+.info-txt-list img{width: 1080px;}
 
 /* main-venue */
 section[id="venue"]{
@@ -398,9 +414,9 @@ section[id="venue"]{
   padding: 20px 0;
   }
 
-  .info-txt-list{display: none;
-  }
+  .info-txt-list{display: none;}
   .info-img-list img{display: flex;}
+  .event_img{display: none;}
 
   .venue__center{
     display: inline-block;
@@ -414,4 +430,5 @@ section[id="venue"]{
     width: 100%;
     float: none;
   }
+  
 }
