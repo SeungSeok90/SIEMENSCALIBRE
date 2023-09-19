@@ -150,11 +150,16 @@ section[id="title"]{
   line-height: normal;
 }
 .title__txt_img_date{ padding-top: 20px;}
-.title__txt_img_date span:nth-child(1){
-  padding: 50px 0;
+.title__txt_img_date{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.title__txt_img_date span:nth-of-type(1){
+  margin-left: 10px;
   color: var(--main-font-color);
   font-size: 1.5rem;
-  line-height: normal;
+  line-height: 30px;
 }
 .title__btn_register{
   margin-top: 30px;
@@ -175,20 +180,20 @@ section[id="title"]{
 /* main-welcome */
 section[id="calibre"]{
     width: 100%;
-    height: 300px;
+    height: 350px;
     background-color: var(--main-font-color);
 }
 #calibre > .inner > div{
-  padding-top: 70px;
+  padding-top: 60px;
   line-height: 30px;
 }
 #calibre > .inner > div > span:nth-child(1){
-  color: var(--speaker-color);
-  font-size: 2.5rem;
+  color: var(--main-bg-color2);
+  font-size: 1.5rem;
 }
 #calibre > .inner > div > span:nth-child(2){
   color: var(--main-bg-color2);
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 #calibre > .inner > div .font-color-c1{
   color: var(--speaker-color);
@@ -443,23 +448,28 @@ section[id="photo"]{
   .title__txt_img_title span:nth-child(2){
     font-size: 2rem;
   }
-  .title__txt_img_date span:nth-child(1){
-    font-size: 1rem;
+  .title__txt_img_date img{
+    width: 1.2em;
+    height: 1.2em;
+  }
+  .title__txt_img_date span:nth-of-type(1){
+    font-size: 0.9em;
   }
   .title__btn_register{
-    padding: 20px 0;
+    margin-top: 10px;
+    padding: 10px 0;
   }
 
   section[id="calibre"]{
     width: 100%;
-    height: 350px;
+    height: 500px;
     /* background: #333453 url(/images/bg/welcome.jpeg) no-repeat right/cover; */
   }
-  #calibre > .inner > div > span:nth-child(1){
-  font-size: 1.5rem;
+  #calibre > .inner > div > span:nth-of-type(1){
+    font-size: 1em;
   }
-  #calibre > .inner > div > span:nth-child(2){
-    font-size: 1rem;
+  #calibre > .inner > div > span:nth-of-type(2){
+    font-size: 0.9em;
   }
   #calibre > .inner > div > span:nth-child(3){
     font-size: 1rem;
