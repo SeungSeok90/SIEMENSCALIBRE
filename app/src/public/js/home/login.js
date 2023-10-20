@@ -1,4 +1,14 @@
 "use strict";
+             
+//그냥 닫기버튼 스크립트
+function closePop1() { 
+	document.getElementById("popup_layer1").style.display = "none";
+}
+
+function theEnd() {
+    alert("Siemens EDA Calibre Day 2023 및 온디맨드 사이트 운영이 종료 되었습니다.");
+}
+
 
 //nav
 var windowWidth;
